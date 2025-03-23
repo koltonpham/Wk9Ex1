@@ -23,7 +23,7 @@ class Main {
         years = scanner.nextLine();  // Read user input
         double yearsD = Double.parseDouble(years); //convert string to int
 
-        interest = (principalD * rateD) * yearsD;
+        interest = (principalD * rateD) * yearsD; //calculate interest
 
         System.out.println("Total interest of Loan: " + interest + " dollars.");  // Output user input
     }
